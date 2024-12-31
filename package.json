@@ -1,0 +1,25 @@
+{
+  "name": "forkify",
+  "version": "1.0.0",
+  "description": "A modern recipe search application built with JavaScript, utilizing the Forkify API. Features include search, bookmarking, and adding custom recipes for a seamless cooking experience. Fully responsive and optimized for performance.",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/KaspiDoron/Forkify"
+  },
+  "author": "Doron Kaspi",
+  "license": "ISC",
+  "browserslist": "last 2 versions, > 0.5% and ie >= 11",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.13.3",
+    "parcel": "^2.13.3"
+  },
+  "dependencies": {
+    "core-js": "^3.39.0",
+    "fractional": "^1.0.0",
+    "regenerator-runtime": "^0.14.1"
+  }
+}

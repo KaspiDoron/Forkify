@@ -4,7 +4,7 @@
   "description": "A modern recipe search application built with JavaScript, utilizing the Forkify API. Features include search, bookmarking, and adding custom recipes for a seamless cooking experience. Fully responsive and optimized for performance.",
   "scripts": {
     "start": "parcel index.html",
-    "build": "parcel build index.html"
+    "build": "parcel build index.html --dist-dir ./dist"
   },
   "repository": {
     "type": "git",
@@ -16,7 +16,8 @@
   "devDependencies": {
     "@parcel/transformer-js": "^2.13.3",
     "@parcel/transformer-sass": "^2.13.3",
-    "parcel": "^2.13.3"
+    "parcel": "^2.13.3",
+    "svgo": "^3.3.2"
   },
   "extends": "@parcel/config-default",
   "transformers": {
